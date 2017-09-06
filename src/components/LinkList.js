@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Link from './Link'
 import { graphql, gql } from 'react-apollo'
+import Link from './Link'
 
 
 class LinkList extends Component {
