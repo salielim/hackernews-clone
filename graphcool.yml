@@ -25,6 +25,18 @@ permissions:
   authenticated: false
 - operation: User.delete
   authenticated: false
+- operation: Vote.read
+  authenticated: false
+- operation: Vote.create
+  authenticated: false
+- operation: Vote.update
+  authenticated: false
+- operation: Vote.delete
+  authenticated: false
 - operation: UsersLinks.*
+  authenticated: false
+- operation: UsersVotes.*
+  authenticated: false
+- operation: VotesOnLink.*
   authenticated: false
 rootTokens: []
